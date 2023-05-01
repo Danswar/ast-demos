@@ -1,9 +1,6 @@
-const parser = require('@babel/parser')
+import * as parser from '@babel/parser'
 
-const code = `
-    const a = 'hello' + 'world';
-`
-
-const ast = parser.parse(code)
-
-console.log(ast)
+export const getJsonAstFromCode = (code: string) => {
+  const ast = parser.parse(code)
+  return JSON.stringify(ast)
+}

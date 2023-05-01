@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "demo-basic-1": "ts-node demos/ast-basic/code-to-ast-json/index.ts"
+    "demo-basic-1": "ts-node demos/ast-basic/code-to-ast-json/console-example/index.ts"
   },
   "keywords": [],
   "author": "",
