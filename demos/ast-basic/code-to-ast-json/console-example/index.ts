@@ -1,4 +1,4 @@
-import { getJsonAstFromCode } from '..'
+import { getJsonAstFromCode } from '../astFromCode'
 
 const code = `
     const a = 'hello' + 'world';
